@@ -15,7 +15,6 @@ class BonusMenuTest {
         assertEquals("삼페인 1개", BonusMenu.getBonusMenu());
         assertEquals(25000, BonusMenu.getBonusMenuPrice());
     }
-
     @Test
     public void testBonusMenuWithLowPrice() {
         BonusMenu bonusMenu = new BonusMenu();
