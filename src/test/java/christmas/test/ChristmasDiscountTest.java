@@ -20,7 +20,6 @@ class ChristmasDiscountTest {
         assertEquals(0, christmasDiscount.calculateDiscountForDate(currentDateAfterDiscountPeriod));
     }
 
-
     @Test
     public void testGetChristmasDiscount() {
         ChristmasDiscount christmasDiscount = new ChristmasDiscount();
