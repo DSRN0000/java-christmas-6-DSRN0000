@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class FormatNumberTest {
-
     @Test
     public void testFormatNumber() {
         FormatNumber formatNumber = new FormatNumber();
